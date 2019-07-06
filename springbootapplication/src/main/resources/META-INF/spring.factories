@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.wei.springbootapplication.context.AfterHelloworldApplicationContextInitializer,\
+com.wei.springbootapplication.context.HelloworldApplicationContextInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.wei.springbootapplication.listener.AfterHellowApplicationListener,\
+com.wei.springbootapplication.listener.HellowApplicationListener
