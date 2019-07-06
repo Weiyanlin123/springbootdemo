@@ -10,4 +10,5 @@ import java.lang.annotation.*;
 //@Import(HelloWorldConfigration.class)
 @Import(HelloworldSelector.class)
 public @interface EnableHelloworld {
+
 }
