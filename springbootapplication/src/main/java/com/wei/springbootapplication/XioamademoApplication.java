@@ -17,9 +17,12 @@ class ImokSpringBootApplication {
 
         HashSet source = new LinkedHashSet();
         source.add(ImokSpringBootApplication.class.getName());
-
         SpringApplication springApplication = new SpringApplication();
         springApplication.setSources(source);
+
+        //测试第一次提交
+
+
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
