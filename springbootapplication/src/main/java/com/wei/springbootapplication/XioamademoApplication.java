@@ -23,7 +23,7 @@ class ImokSpringBootApplication {
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
-
+//合并分支到主干
 
     }
 
