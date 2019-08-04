@@ -20,7 +20,7 @@ class ImokSpringBootApplication {
         SpringApplication springApplication = new SpringApplication();
         springApplication.setSources(source);
 
-        //分支
+        //主干
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
