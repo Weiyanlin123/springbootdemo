@@ -20,10 +20,7 @@ class ImokSpringBootApplication {
         SpringApplication springApplication = new SpringApplication();
         springApplication.setSources(source);
 
-        //第二次提交
-      // 测试冲突
-        //有人改代码了哈
-        //分支还是主干
+        //chongxinceshi
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
