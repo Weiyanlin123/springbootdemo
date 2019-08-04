@@ -21,7 +21,7 @@ class ImokSpringBootApplication {
         springApplication.setSources(source);
 
         //第二次提交
-
+        //有人改代码了哈
         //分支还是主干
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
