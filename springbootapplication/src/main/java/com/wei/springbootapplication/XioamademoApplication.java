@@ -21,6 +21,8 @@ class ImokSpringBootApplication {
         springApplication.setSources(source);
 
         //第二次提交
+
+        //分支还是主干
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
