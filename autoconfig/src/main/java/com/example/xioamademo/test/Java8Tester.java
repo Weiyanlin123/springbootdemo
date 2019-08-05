@@ -62,6 +62,6 @@ public class Java8Tester {
       return mathOperation.operation(a, b);
    }
 
-
+//nihao
 
 }
