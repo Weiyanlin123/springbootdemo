@@ -41,15 +41,15 @@ public class Java8Tester {
       Converter ConverterService= (param) -> System.out.println(String.valueOf(param+mum));
       ConverterService.convert(2);
         //mum=3;
-
-
+      new Thread(()-> System.out.println(Thread.currentThread().getName()+"当前线程是")).start();
 
    }
     
    interface MathOperation {
       int operation(int a, int b);
    }
-    
+
+   @FunctionalInterface
    interface GreetingService {
       void sayMessage(String message);
    }
@@ -62,6 +62,6 @@ public class Java8Tester {
       return mathOperation.operation(a, b);
    }
 
-
+//你好
 
 }
