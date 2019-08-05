@@ -62,7 +62,6 @@ public class Java8Tester {
       return mathOperation.operation(a, b);
    }
 
-//消除冲突
-//制造冲突
+
 
 }
