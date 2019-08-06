@@ -62,7 +62,6 @@ public class Java8Tester {
       return mathOperation.operation(a, b);
    }
 
-//你好
-//nihao
+
 
 }
