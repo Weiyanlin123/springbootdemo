@@ -17,13 +17,12 @@ class ImokSpringBootApplication {
 
         HashSet source = new LinkedHashSet();
         source.add(ImokSpringBootApplication.class.getName());
-
+        //你好
         SpringApplication springApplication = new SpringApplication();
         springApplication.setSources(source);
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
-       //zhugangchongtu
 
     }
 
