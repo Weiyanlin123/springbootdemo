@@ -23,6 +23,9 @@ class ImokSpringBootApplication {
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
+        //aaaaa
+
+
       //冲突
     }
 
