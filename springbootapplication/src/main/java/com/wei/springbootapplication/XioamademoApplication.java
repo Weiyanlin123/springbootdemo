@@ -19,13 +19,11 @@ class ImokSpringBootApplication {
         source.add(ImokSpringBootApplication.class.getName());
         SpringApplication springApplication = new SpringApplication();
         springApplication.setSources(source);
-// 我就是在修改主干
-        //主干
-//住改在修改
+
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
-//合并分支到主干
+//主干冲突
 
     }
 
