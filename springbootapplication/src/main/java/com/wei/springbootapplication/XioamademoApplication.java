@@ -14,16 +14,19 @@ class ImokSpringBootApplication {
 
     public static void main(String[] args) {
       // SpringApplication.run(ImokSpringBootApplication.class, args);
-      //制造冲突合并到主干
+
         HashSet source = new LinkedHashSet();
         source.add(ImokSpringBootApplication.class.getName());
+        //你好
         SpringApplication springApplication = new SpringApplication();
         springApplication.setSources(source);
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         ConfigurableApplicationContext context = springApplication.run(args);
         System.out.print(context.getBean(ImokSpringBootApplication.class));
+        //aaaaa
 
 
+      //冲突
     }
 
 }
